@@ -15,7 +15,7 @@ type Payload struct {
 
 // Handle a serverless request
 func Handle(req []byte) string {
-	webhook, err := ioutil.ReadFile("/var/openfaas/secrets/webhook-url")
+	webhook, err := ioutil.ReadFile("/var/openfaas/secrets/viveksyngh")
 	webhookURL := string(webhook)
 	if err != nil {
 		return fmt.Sprintf("Unable to read secret file")

@@ -6,6 +6,6 @@ functions:
   slack-webhook-fn:
     lang: go
     handler: ./slack-webhook-fn
-    image: viveksyngh/slack-webhook-fn
+    image: slack-webhook-fn
     secrets:
       - slack-webhook-fn
