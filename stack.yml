@@ -8,4 +8,4 @@ functions:
     handler: ./slack-webhook-fn
     image: viveksyngh/slack-webhook-fn
     secrets:
-      - slack-webhook-fn
+      - slack-webhook-url
